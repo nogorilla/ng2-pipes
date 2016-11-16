@@ -1,0 +1,59 @@
+{
+  "name": "angular2-pipes",
+  "version": "0.0.1",
+  "description": "angular2 pipes",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "karma start ./karma.conf.js",
+    "dev": "webpack-dev-server --port 4200 --inline --progress --profile --colors --watch --display-error-details --display-cached --content-base",
+    "tsc": "tsc --rootDir src --outDir dist --declaration",
+    "prebuild": "rimraf dist",
+    "build": "npm run tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nogorilla/angular2-pipes.git"
+  },
+  "keywords": [
+    "angular2",
+    "pipes"
+  ],
+  "author": "nogorilla <gabriel.smith010@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nogorilla/angular2-pipes/issues"
+  },
+  "homepage": "https://github.com/nogorilla/angular2-pipes#readme",
+  "devDependencies": {
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@types/jasmine": "^2.2.29",
+    "@types/node": "^4.0.29",
+    "core-js": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma-chrome-launcher": "^2.0.0 ",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-mocha-reporter": "^2.0.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-remap-coverage": "^0.1.1",
+    "karma-remap-istanbul": "^0.2.1",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "1.8.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "raw-loader": "^0.5.1",
+    "reflect-metadata": "^0.1.3",
+    "rimraf": "^2.5.4",
+    "rxjs": "5.0.0-beta.12",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.0-beta",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "zone.js": "^0.6.14"
+  }
+}
