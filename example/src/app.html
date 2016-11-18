@@ -1,5 +1,27 @@
 <div>
   <h3>Slugify</h3>
-  <div>{{ slugified }}</div>
-  <div>{{ slugified | slugify }}</div>
+  <div>{{ slugifiedStr }}</div>
+  <div>{{ slugifiedStr | slugify }}</div>
 </div>
+<div>
+  <h3>Strip Tags</h3>
+  <pre>{{ stripStr }}</pre>
+  <pre>{{ stripStr | stripTags }}</pre>
+</div>
+<div>
+  <h3>Truncate</h3>
+  <div>{{ truncateStr }}</div>
+  <div>{{ truncateStr | truncate: 35:'...' }}</div>
+</div>
+<div>
+  <h3>Uppercase First</h3>
+  <div>{{ lowercaseStr }}</div>
+  <div>{{ lowercaseStr | ucfirst }}</div>
+</div>
+
+<div>
+  <h3>Uppercase Words</h3>
+  <div>{{ lowercaseStr }}</div>
+  <div>{{ lowercaseStr | ucwords }}</div>
+</div>
+

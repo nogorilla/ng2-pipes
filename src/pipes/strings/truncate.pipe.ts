@@ -7,16 +7,21 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class TruncatePipe implements PipeTransform {
   transform(text: string, length: number, suffix: string) {
 
+    let result = text;
+
     if (!text || !isNaN(length)) {
-      return text;
+      result = text;
     }
 
     if (text.length <= length || text.length - suffix.length <= length) {
-      return text;
+      result = text;
     }
     else {
-      var shortString = text.substr(0, length);
-      return shortString.substr(0, Math.min(length, shortString.lastIndexOf(' ')))+suffix;
+      let shortString = text.substr(0, length);
+      result = shortString.substr(0, Math.min(length, shortString.lastIndexOf(' '))) + suffix;
     }
+
+    return result
+
   }
 }
