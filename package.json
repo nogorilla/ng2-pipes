@@ -1,5 +1,5 @@
 {
-  "name": "angular2-pipes",
+  "name": "ng2-pipes",
   "version": "0.0.1",
   "description": "angular2 pipes",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nogorilla/angular2-pipes.git"
+    "url": "git+https://github.com/nogorilla/ng2-pipes.git"
   },
   "keywords": [
     "angular2",
@@ -23,9 +23,9 @@
   "author": "nogorilla <gabriel.smith010@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nogorilla/angular2-pipes/issues"
+    "url": "https://github.com/nogorilla/ng2-pipes/issues"
   },
-  "homepage": "https://github.com/nogorilla/angular2-pipes#readme",
+  "homepage": "https://github.com/nogorilla/ng2-pipes#readme",
   "devDependencies": {
     "@angular/common": "2.0.0",
     "@angular/compiler": "2.0.0",
