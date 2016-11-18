@@ -7,8 +7,6 @@ Angular2 Pipes - contains various pipes for use in angular2
 3. run `npm run dev`
 4. visit `http://localhost:4200`
 
-# Usage
-
 # License
 
 MIT
